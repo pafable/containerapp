@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get("/", function(req,res){
-    res.send("Phil says: hello world im in a container!");
+    res.send("Phil says: hello world, im in a container!");
 });
 
 app.listen(80, process.env.IP, function(req,res){
