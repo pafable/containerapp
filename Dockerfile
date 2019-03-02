@@ -1,5 +1,5 @@
 # Use node docker container as a base (preferrably node:alpine)
-FROM alpine
+FROM node:alpine
 
 
 # Download and install a dependency
