@@ -1,6 +1,9 @@
 # Use node docker container as a base (preferrably node:alpine)
 FROM node:alpine
 
+# Create a working dir in the container for the app
+WORKDIR /app
+
 # Add package.json file into container
 COPY ./app.js ./
 COPY ./package.json ./
