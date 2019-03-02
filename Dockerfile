@@ -2,7 +2,7 @@
 FROM node:alpine
 
 # Add package.json file into container
-COPY ./app.js ./
+COPY ./index.js ./
 COPY ./package.json ./
 
 # Download and install a dependency
