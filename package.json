@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "container test project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phil Afable",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
